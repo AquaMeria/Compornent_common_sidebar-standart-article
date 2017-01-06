@@ -1,0 +1,2 @@
+# Compornent_common_sidebar-standart-article
+スタンダートな記事サイドナビ
