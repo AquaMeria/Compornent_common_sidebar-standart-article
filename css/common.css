@@ -1,0 +1,121 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+┏┓
+┗■ INDEX
+
+|   01.サイドナビ
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*--------------------
+    00.初期設定
+--------------------*/
+body{
+    background: #F0F0F0;
+    color:#262626;
+}
+
+/*--------------------
+    01.サイドナビ
+--------------------*/
+.sidemenu__block {
+    background-color: #fff;
+    border: 1px solid #DADADA;
+    clear: both;
+    overflow: hidden;
+    padding: 30px;  
+}
+.sidemenu__block__widget {
+    color: #C1C0C0;
+    margin-bottom: 50px;    
+    overflow: hidden;
+}
+.sidemenu__block__widget:last-child {
+    margin-bottom: 0px;
+}
+.sidemenu__block__widget__title {
+    color: #636467;
+    font-size: 14px;
+    margin-bottom: 25px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.sidemenu__block__widget__post {
+    clear: both;
+    float: left;
+    margin-bottom: 20px;
+}
+.sidemenu__block__widget__post__left {
+    background-color: #DADADA;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    display: block;
+    float: left;
+    height: 60px;
+    overflow: hidden;
+    width: 60px;
+}
+.sidemenu__block__widget__post__left__img {
+    border-radius: 4px;
+    opacity: 1;
+    -webkit-transition: opacity  0.5s;
+    -moz-transition: opacity  0.5s;
+    -o-transition: opacity  0.5s;
+    transition: opacity  0.5s;
+}
+.sidemenu__block__widget__post__left__img:hover {
+    opacity: 0.6;
+}
+.sidemenu__block__widget__post__right {
+    margin-left: 80px;
+}
+.sidemenu__block__widget__post__right__text {
+    color: #636467;
+}
+.sidemenu__block__widget__post__right__text:hover {
+    color: #DADADA;
+}
+.sidemenu__block__widget__post__right__date {
+    display: block;
+    font-size: 12px;
+}
+.sidemenu__block__widget__category {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0;
+}
+.sidemenu__block__widget__category__list {
+    border-bottom: 1px solid #F2F2F2;
+    list-style: none;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.sidemenu__block__widget__category__list__link {
+    color: #C1C0C0;
+}
+.sidemenu__block__widget__category__list__link:hover {
+    color: #636467;
+}
+.sidemenu__block__widget__category__list__postCount {
+    float: right;
+}
+.sidemenu__block__widget__tagcloud {
+    margin-top: 25px;
+}
+.sidemenu__block__widget__tagcloud__link {
+    background-color: #DADADA;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #FFF !important;
+    display: inline-block;
+    font-size: 12px !important;
+    line-height: 100%;
+    margin-right: 5px;
+    margin-bottom: 4px;
+    padding: 6px 7px;
+}
+.sidemenu__block__widget__tagcloud__link:hover {
+    background-color: #636467;
+    border-color: #636467;
+}
